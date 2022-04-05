@@ -1,0 +1,8 @@
+*{
+    text-decoration: none;
+    font-family: 'Fira Code', monospace;
+}
+
+body{
+    background-image: linear-gradient(to left, rgb(91, 201, 39) , rgb(241, 207, 94));
+}
