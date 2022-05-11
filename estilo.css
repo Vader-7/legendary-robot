@@ -31,10 +31,10 @@ body{
     color: white;
     text-decoration: underline;
   }
-.boton {
-    text-align: center;
-}
-  
+input.larger {
+    width: 15px;
+    height: 15px;
+  }
 /*.errores{
     display: none;
     color: rgb(225, 12, 12);
