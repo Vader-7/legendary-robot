@@ -12,6 +12,8 @@ body{
 }
 .campo{
     width: 100%;
+    border-radius: 15px;
+    border-style: none;
   }
 .inline-img {
   width: 30px;
