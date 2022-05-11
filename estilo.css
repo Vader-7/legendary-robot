@@ -39,6 +39,10 @@ input.larger {
 .nav-border{
     border-radius: 15px;
 }
+.carousel {
+    border-radius: 55px 55px 55px 55px;
+    overflow: hidden;
+}
 /*.errores{
     display: none;
     color: rgb(225, 12, 12);
