@@ -10,15 +10,13 @@ body{
   
 .forma_registro{
     background-image: linear-gradient(to right, rgb(200, 140, 79) , rgb(130, 188, 53));
-    border-radius: 0px;
     border-style: solid;
     font-family: 'Fira Code', monospace;
     color: rgb(209, 209, 209);
   }
 .campo{
-      width: 100%;
-      background: 24303c;
-      font-family: 'Fira Code', monospace;
+    width: 100%;
+    font-family: 'Fira Code', monospace;
  
   }
 .forma_registro p{
