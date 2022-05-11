@@ -10,26 +10,14 @@ body{
 .nav-border{
   border-radius: 15px;
 }
+.label{
+  width: 100%;
+  font-family: 'Fira Code', monospace;
+}
 .campo{
     width: 100%;
-  }
-.forma_registro p{
-    text-align: center;
-  
-  }
-.forma_registro a:hover{
-    color: white;
-    text-decoration: none;
-  }
-.forma_registro a:hover{
-    color: white;
-    text-decoration: underline;
   }
 input.larger {
     width: 15px;
     height: 15px;
-  }
-.label{
-    width: 100%;
-    font-family: 'Fira Code', monospace;
   }
