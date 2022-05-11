@@ -7,10 +7,11 @@
 body{
     background-image: linear-gradient(to left, rgb(200, 140, 79) , rgb(130, 188, 53));
 }
-  
+
 .forma_registro{
     background-image: linear-gradient(to right, rgb(200, 140, 79) , rgb(130, 188, 53));
     border-style: solid;
+    border-radius: 15px;
     font-family: 'Fira Code', monospace;
     color: rgb(209, 209, 209);
   }
@@ -35,6 +36,9 @@ input.larger {
     width: 15px;
     height: 15px;
   }
+.nav-border{
+    border-radius: 15px;
+}
 /*.errores{
     display: none;
     color: rgb(225, 12, 12);
