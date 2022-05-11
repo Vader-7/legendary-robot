@@ -10,10 +10,6 @@ body{
 .nav-border{
   border-radius: 15px;
 }
-.label{
-  width: 100%;
-  font-family: 'Fira Code', monospace;
-}
 .campo{
     width: 100%;
   }
