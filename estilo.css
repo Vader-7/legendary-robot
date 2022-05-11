@@ -12,7 +12,6 @@ body{
     background-image: linear-gradient(to right, rgb(200, 140, 79) , rgb(130, 188, 53));
     border-radius: 0px;
     border-style: solid;
-    box-shadow: #1f53c5;
     font-family: 'Fira Code', monospace;
     color: rgb(209, 209, 209);
   }
@@ -35,13 +34,13 @@ body{
     text-decoration: underline;
   }
   
-.errores{
+/*.errores{
     display: none;
     color: rgb(225, 12, 12);
     border: 1px soild #f30000;
     box-shadow: 7px 13px 37px rgb(255, 0, 0);
   }
-  
+  */
 #mensaje2{
     padding-top: -6%;
     color: #1f53c5;
@@ -49,12 +48,5 @@ body{
   }
 .label{
     width: 100%;
-    background: 24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 1px;
-    border: 100px soild #000000;
     font-family: 'Fira Code', monospace;
-    font-size: 18px;
-    box-shadow: 7px 13px 37px rgb(0, 0, 0);
   }
