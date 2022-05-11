@@ -7,7 +7,9 @@
 body{
     background-image: linear-gradient(to left, rgb(200, 140, 79) , rgb(130, 188, 53));
 }
-
+.nav-border{
+  border-radius: 15px;
+}
 .forma_registro{
     background-image: linear-gradient(to right, rgb(200, 140, 79) , rgb(130, 188, 53));
     border-style: solid;
@@ -17,8 +19,6 @@ body{
   }
 .campo{
     width: 100%;
-    font-family: 'Fira Code', monospace;
- 
   }
 .forma_registro p{
     text-align: center;
@@ -36,9 +36,6 @@ input.larger {
     width: 15px;
     height: 15px;
   }
-.nav-border{
-    border-radius: 15px;
-}
 .carouselExampleCaptions {
     border-radius: 55px 55px 55px 55px;
     overflow: hidden;
