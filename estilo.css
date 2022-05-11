@@ -13,6 +13,11 @@ body{
 .campo{
     width: 100%;
   }
+/*.fondo_del_formulario{
+  border-style: groove;
+  border-radius: 15px;
+  border-color: aliceblue;
+}*/
 input.larger {
     width: 15px;
     height: 15px;
