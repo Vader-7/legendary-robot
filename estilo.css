@@ -10,13 +10,6 @@ body{
 .nav-border{
   border-radius: 15px;
 }
-.forma_registro{
-    background-image: linear-gradient(to right, rgb(200, 140, 79) , rgb(130, 188, 53));
-    border-style: solid;
-    border-radius: 15px;
-    font-family: 'Fira Code', monospace;
-    color: rgb(209, 209, 209);
-  }
 .campo{
     width: 100%;
   }
