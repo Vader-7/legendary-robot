@@ -31,6 +31,9 @@ body{
     color: white;
     text-decoration: underline;
   }
+.boton {
+    text-align: center;
+}
   
 /*.errores{
     display: none;
