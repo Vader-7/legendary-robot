@@ -39,8 +39,15 @@ input.larger {
 .nav-border{
     border-radius: 15px;
 }
-.carousel {
+.carouselExampleCaptions {
     border-radius: 55px 55px 55px 55px;
+    overflow: hidden;
+    border-style: solid;
+    border-color: aliceblue;
+}
+.carousel-indicators {
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0);
     overflow: hidden;
 }
 /*.errores{
