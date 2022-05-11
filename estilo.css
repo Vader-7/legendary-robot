@@ -13,6 +13,12 @@ body{
 .campo{
     width: 100%;
   }
+.inline-img {
+  width: 30px;
+  height: 30px;
+  position: left;
+}
+  
 /*.fondo_del_formulario{
   border-style: groove;
   border-radius: 15px;
