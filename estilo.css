@@ -12,7 +12,7 @@ body{
     background-image: linear-gradient(to right, rgb(200, 140, 79) , rgb(130, 188, 53));
     padding: 5px;
     margin: auto;
-    border-radius: 60px;
+    border-radius: 50px;
     border-style: solid;
     box-shadow: #1f53c5;
     font-family: 'Fira Code', monospace;
