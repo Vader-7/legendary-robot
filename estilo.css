@@ -15,6 +15,11 @@ body{
     border-radius: 15px;
     border-style: none;
   }
+.login{
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgb(198, 198, 198);
+}
 .inline-img {
   width: 30px;
   height: 30px;
