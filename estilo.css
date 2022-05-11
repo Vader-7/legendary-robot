@@ -10,28 +10,20 @@ body{
   
 .forma_registro{
     background-image: linear-gradient(to right, rgb(200, 140, 79) , rgb(130, 188, 53));
-    padding: 5px;
-    margin: auto;
     border-radius: 0px;
     border-style: solid;
     box-shadow: #1f53c5;
     font-family: 'Fira Code', monospace;
     color: rgb(209, 209, 209);
   }
-.forma_registro h4{
-    font-size: 22;
-  }
 .campo{
       width: 100%;
       background: 24303c;
       font-family: 'Fira Code', monospace;
-      font-size: 18px;
  
   }
 .forma_registro p{
-    height: 40px;
     text-align: center;
-    font-size: 18px;
   
   }
 .forma_registro a:hover{
