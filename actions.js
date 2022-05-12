@@ -48,6 +48,17 @@ $(document).ready(function(){
         $("#descripcion3").hide(1000);
     })
 //FUNCIONALIDAD MACETEROS
-    
+    $("#mac_img1").mouseenter(function (e) {
+        e.preventDefault();
+        $("#mac_des1").show(1000);
+    })
+    $("#mac_img1").mouseenter(function (e) {
+        e.preventDefault();
+        $("#mac_img1").hide(1000);
+    })
+    $("#mac_img1").mouseleave(function (e) {
+        e.preventDefault();
+        $("#mac_img1").show(1000);
+    })
 });
 
