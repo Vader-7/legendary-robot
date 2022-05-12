@@ -36,17 +36,18 @@
                     <div class="titulo_formulario">
                         <h1>REGISTRO CLIENTE</h1>
                             <!--rut-->
+                            <form class="row g-3 needs-validation">
                             <label for="rut" class="label">RUT</label>
-                            <input class="campo" maxlength="10" id="itrut" type="text" name="rut" placeholder="">
+                            <input class="campo" minlength="8" maxlength="9" id="itrut" type="text" name="rut" placeholder="" required>
                             <!--nombre-->
                             <label for="nombre" class="label">NOMBRE</label>
-                            <input class="campo" type="text" minlength="3" name="nombres" placeholder="" required>
+                            <input class="campo" type="text" minlength="3" maxlength="20" name="nombres" placeholder="" required>
                             <!--apellido-->
                             <label for="apellido" class="label">APELLIDO</label>
                             <input class="campo" type="text" name="nombres" placeholder="" required>
                             <!--edad-->
                             <label for="edad" class="campo">EDAD</label>
-                            <input type="number" min="18" max="120" class="campo" placeholder=""
+                            <input type="number" min="18" max="100" class="campo" placeholder=""
                                 id="txtedad" name="edad" required>
                             <!--sexo-->
                             <div><br></div>
@@ -84,13 +85,17 @@
                             <input class="campo" type="password" name="nombres" placeholder=""  required>
                             <label for="correo" class="label"><img class="inline-img" src="envelope-solid.svg" alt=""> CORREO ELECTRONICO</label>
                             <input class="campo" type="text" name="nombres" placeholder=""  required>
-                            <div></div>
-                            <input type="checkbox" id="cbox1" value="first_checkbox" class="larger"> Estoy de acuerdo con los <a href="#">Terminos y Condiciones</a></label>
-                            <div></div>
-                            <div style="text-align: center;">
-                            <button type="button" class="btn btn-light btn-primary btn-lg btn-block">REGISTRARSE</button>
-                            <label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                    <label class="form-check-label" for="invalidCheck">Estoy de acuerdo con los <a href="#">Terminos y Condiciones</label>
+                                    <div class="invalid-feedback">TIENES QUE ACEPTAR TERMINOS PARA REGISTRAR CUENTA.
+                                    </div>
+                                    </div>
+                                    <div style="text-align: center;">
+                                    <button type="submit" class="btn btn-light btn-primary btn-lg btn-block">REGISTRARSE</button>
+                            </div>
                         </div>
+                    </form>
                     </div>
                 </div>
             </div>
