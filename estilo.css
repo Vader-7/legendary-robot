@@ -3,6 +3,7 @@
     padding: 7px;
     font-weight: bolder;
     text-decoration: none;
+    text-decoration-line: none;
 }
 
 body{
