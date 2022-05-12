@@ -10,7 +10,7 @@ body{
 }
 a{
   text-decoration-line: none;
-  color: black;
+  color: rgb(0, 114, 163);
 }
 .nav-border{
   border-radius: 15px;
@@ -44,13 +44,3 @@ input.larger {
     width: 15px;
     height: 15px;
 }
-/*.fondo_del_formulario{
-  border-style: groove;
-  border-radius: 15px;
-  border-color: aliceblue;
-}
-
-.label{
-  font-size: 20px;
-  font-weight: bolder;
-}*/
