@@ -4,6 +4,9 @@
     padding: 7px;
     font-weight: bolder;
 }
+a{
+  text-decoration: none;
+}
 body{
     background-image: linear-gradient(to left, rgb(200, 140, 79) , rgb(130, 188, 53));
 }
