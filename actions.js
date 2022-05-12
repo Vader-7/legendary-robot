@@ -50,7 +50,7 @@ $(document).ready(function(){
 //FUNCIONALIDAD MACETERO 1
     $("#mac_img1").mouseenter(function (e) {
         e.preventDefault();
-        $("#mac_des1").show(1000);
+        $("#mac_des1, #mac_com1").show(1000);
     })
     $("#mac_img1").mouseenter(function (e) {
         e.preventDefault();
@@ -67,7 +67,7 @@ $(document).ready(function(){
 //FUNCIONALIDAD MACETERO 2
     $("#mac_img2").mouseenter(function (e) {
         e.preventDefault();
-        $("#mac_des2").show(1000);
+        $("#mac_des2, #mac_com2").show(1000);
     })
     $("#mac_img2").mouseenter(function (e) {
         e.preventDefault();
@@ -84,7 +84,7 @@ $(document).ready(function(){
 //FUNCIONALIDAD MACETERO 3
     $("#mac_img3").mouseenter(function (e) {
         e.preventDefault();
-        $("#mac_des3").show(1000);
+        $("#mac_des3, #mac_com3").show(1000);
     })
     $("#mac_img3").mouseenter(function (e) {
         e.preventDefault();
@@ -97,6 +97,55 @@ $(document).ready(function(){
     $("#mac_des3").mouseleave(function (e) {
         e.preventDefault();
         $("#mac_des3").hide(1000);
+    })
+//FUNCIONALIDAD COMPRA MACETEROS
+    $("#mac_com1").click(function (e) {
+        e.preventDefault();
+        $("#mac_des, #mac_catalogo, #web_pay, #carrito").show(1000);
+    })
+    $("#mac_com1").click(function (e) {
+        e.preventDefault();
+        $("#maceteros").hide(1000);
+    })
+    $("#mac_catalogo").click(function (e) {
+        e.preventDefault();
+        $("#maceteros").show(1000);
+    })
+    $("#mac_catalogo").click(function (e) {
+        e.preventDefault();
+        $("#mac_des, #mac_catalogo, #web_pay, #carrito").hide(1000);
+    })
+    $("#mac_com2").click(function (e) {
+        e.preventDefault();
+        $("#mac_des, #mac_catalogo, #web_pay, #carrito").show(1000);
+    })
+    $("#mac_com2").click(function (e) {
+        e.preventDefault();
+        $("#maceteros").hide(1000);
+    })
+    $("#mac_catalogo").click(function (e) {
+        e.preventDefault();
+        $("#maceteros").show(1000);
+    })
+    $("#mac_catalogo").click(function (e) {
+        e.preventDefault();
+        $("#mac_des, #mac_catalogo, #web_pay, #carrito").hide(1000);
+    })
+    $("#mac_com3").click(function (e) {
+        e.preventDefault();
+        $("#mac_des, #mac_catalogo, #web_pay, #carrito").show(1000);
+    })
+    $("#mac_com3").click(function (e) {
+        e.preventDefault();
+        $("#maceteros").hide(1000);
+    })
+    $("#mac_catalogo").click(function (e) {
+        e.preventDefault();
+        $("#maceteros").show(1000);
+    })
+    $("#mac_catalogo").click(function (e) {
+        e.preventDefault();
+        $("#mac_des, #mac_catalogo, #web_pay, #carrito").hide(1000);
     })
 });
 
