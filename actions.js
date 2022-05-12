@@ -47,5 +47,7 @@ $(document).ready(function(){
         e.preventDefault();
         $("#descripcion3").hide(1000);
     })
+//FUNCIONALIDAD MACETEROS
+    
 });
 

@@ -13,6 +13,9 @@ a{
   text-decoration-line: none;
   color: rgb(0, 114, 163);
 }
+img{
+  border-radius: 15px;
+}
 .nav-border{
   border-radius: 15px;
 }
