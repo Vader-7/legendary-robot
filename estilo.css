@@ -85,6 +85,12 @@ img{
   position: left;
   border-radius: 0%;
 }
+.inline-img-footer{
+  width: 40px;
+  height: 40px;
+  position: left;
+  border-radius: 0%;
+}
 input.larger {
     width: 15px;
     height: 15px;
