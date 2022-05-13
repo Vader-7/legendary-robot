@@ -101,7 +101,7 @@ $(document).ready(function(){
 //FUNCIONALIDAD COMPRA GENERAL
     $("#mac_com1").click(function (e) {
         e.preventDefault();
-        $("#mac_des, #mac_catalogo, #web_pay, #carrito").show(1000);
+        $("#mac_descrip1, #mac_catalogo, #web_pay, #carrito").show(1000);
     })
     $("#mac_com1").click(function (e) {
         e.preventDefault();
@@ -113,11 +113,11 @@ $(document).ready(function(){
     })
     $("#mac_catalogo").click(function (e) {
         e.preventDefault();
-        $("#mac_des, #mac_catalogo, #web_pay, #carrito").hide(1000);
+        $("#mac_descrip1, #mac_descrip2, #mac_descrip3, #mac_catalogo, #web_pay, #carrito").hide(1000);
     })
     $("#mac_com2").click(function (e) {
         e.preventDefault();
-        $("#mac_des, #mac_catalogo, #web_pay, #carrito").show(1000);
+        $("#mac_descrip2, #mac_catalogo, #web_pay, #carrito").show(1000);
     })
     $("#mac_com2").click(function (e) {
         e.preventDefault();
@@ -129,11 +129,11 @@ $(document).ready(function(){
     })
     $("#mac_catalogo").click(function (e) {
         e.preventDefault();
-        $("#mac_des, #mac_catalogo, #web_pay, #carrito").hide(1000);
+        $("#mac_descrip1, #mac_descrip2, #mac_descrip3, #mac_catalogo, #web_pay, #carrito").hide(1000);
     })
     $("#mac_com3").click(function (e) {
         e.preventDefault();
-        $("#mac_des, #mac_catalogo, #web_pay, #carrito").show(1000);
+        $("#mac_descrip3, #mac_catalogo, #web_pay, #carrito").show(1000);
     })
     $("#mac_com3").click(function (e) {
         e.preventDefault();
@@ -145,7 +145,7 @@ $(document).ready(function(){
     })
     $("#mac_catalogo").click(function (e) {
         e.preventDefault();
-        $("#mac_des, #mac_catalogo, #web_pay, #carrito").hide(1000);
+        $("#mac_descrip1, #mac_descrip2, #mac_descrip3, #mac_catalogo, #web_pay, #carrito").hide(1000);
     })
 });
 
