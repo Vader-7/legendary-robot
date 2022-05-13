@@ -8,7 +8,8 @@
 }
 
 body{
-    background-image: linear-gradient(to left, rgb(200, 140, 79) , rgb(130, 188, 53));
+    background: rgb(223,212,215);
+    background: linear-gradient(52deg, rgba(223,212,215,1) 0%, rgba(210,210,210,1) 93%);
 }
 a{
   text-decoration-line: none;
@@ -34,7 +35,7 @@ img{
 }
 
 #mac_des, #mac_des1, #mac_des2, #mac_des3, #descripcion1, #descripcion2, #descripcion3{
-  background-color: #DFD4D7;
+  background-color: #ffffff;
   color: rgb(34, 34, 34);
   border-radius: 15px;
 }
@@ -75,11 +76,13 @@ img{
   width: 30px;
   height: 30px;
   position: left;
+  border-radius: 0%;
 }
 .inline-imgx{
   width: 50px;
   height: 40px;
   position: left;
+  border-radius: 0%;
 }
 input.larger {
     width: 15px;
