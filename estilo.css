@@ -40,9 +40,14 @@ img{
   background-color: aliceblue;
   color: black;
 }
-.campo{
+.control{
     border-radius: 15px;
+    width: 70%;
     border-style: none;
+  }
+.label{
+    font-size: large;
+    font-weight: 1000;
   }
 .login{
   border-radius: 10px;
