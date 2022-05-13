@@ -21,11 +21,16 @@ img{
   color: rgb(34, 34, 34);
   border-radius: 15px;
 }
-#Login{
+#Title{
+  text-transform: uppercase;
+  font-weight: 1000;
+  text-align: center;
+}
+.logDiv{
   background-image: url(sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: 0px -1100px;
 }
 .nav-border{
   border-radius: 15px;
