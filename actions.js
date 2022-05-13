@@ -117,7 +117,7 @@ $(document).ready(function(){
     })
     $("#mac_com2").click(function (e) {
         e.preventDefault();
-        $("#mac_descrip2, #mac_catalogo, #web_pay, #carrito").show(1000);
+        $("#mac_descrip2, #mac_catalogo2, #web_pay, #carrito").show(1000);
     })
     $("#mac_com2").click(function (e) {
         e.preventDefault();
@@ -127,9 +127,9 @@ $(document).ready(function(){
         e.preventDefault();
         $("#maceteros").show(1000);
     })
-    $("#mac_catalogo").click(function (e) {
+    $("#mac_catalogo2").click(function (e) {
         e.preventDefault();
-        $("#mac_descrip1, #mac_descrip2, #mac_descrip3, #mac_catalogo, #web_pay, #carrito").hide(1000);
+        $("#mac_descrip1, #mac_descrip2, #mac_descrip3, #mac_catalogo,#mac_catalogo2,  #web_pay, #carrito").hide(1000);
     })
     $("#mac_com3").click(function (e) {
         e.preventDefault();
