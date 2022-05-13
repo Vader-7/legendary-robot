@@ -98,7 +98,7 @@ $(document).ready(function(){
         e.preventDefault();
         $("#mac_des3").hide(1000);
     })
-//FUNCIONALIDAD COMPRA MACETEROS
+//FUNCIONALIDAD COMPRA GENERAL
     $("#mac_com1").click(function (e) {
         e.preventDefault();
         $("#mac_des, #mac_catalogo, #web_pay, #carrito").show(1000);
