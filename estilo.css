@@ -18,6 +18,21 @@ a{
 img{
   border-radius: 15px;
 }
+.USER{
+  border-radius: 15px;
+  background-color: #ffffff;
+  border-color: #DFD4D7;
+  border-style: hidden;
+  box-shadow: none;
+}
+.dropdown-menu{
+  border-radius: 15px;
+  background-color: #ffffff;
+  border-color: #DFD4D7;
+  border-style: hidden;
+  box-shadow: none;
+}
+
 #mac_des, #mac_des1, #mac_des2, #mac_des3, #descripcion1, #descripcion2, #descripcion3{
   background-color: #DFD4D7;
   color: rgb(34, 34, 34);
