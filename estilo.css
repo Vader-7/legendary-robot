@@ -2,8 +2,9 @@
     font-family: 'Fira Code', monospace;
     padding: 7px;
     font-weight: bolder;
-    text-decoration: none;
     text-decoration-line: none;
+    text-decoration-color: rgb(0, 80, 114);
+    text-decoration-style: none;
 }
 
 body{
