@@ -60,12 +60,13 @@ img{
 }
 .control{
     border-radius: 15px;
-    width: 100%;
+    width: 30%;
     border-style: none;
   }
 .label{
     font-size: large;
     font-weight: 1000;
+    text-align: center;
   }
 .login{
   border-radius: 10px;
