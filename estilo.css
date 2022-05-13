@@ -11,7 +11,8 @@ body{
 }
 a{
   text-decoration-line: none;
-  color: rgb(0, 114, 163);
+  text-decoration-color: rgb(0, 80, 114);
+  text-decoration-style: none;
 }
 img{
   border-radius: 15px;
