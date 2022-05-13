@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>semillas</title>
+  <title>maceteros</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
   <link rel="stylesheet" href="estilo.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,18 +29,21 @@
       $("#mac_des1").hide();
       $("#mac_des2").hide();
       $("#mac_des3").hide();
-      $("#mac_des").hide();
+      $("#mac_descrip1").hide();
+      $("#mac_descrip2").hide();
+      $("#mac_descrip3").hide();
       $("#mac_com1").hide();
       $("#mac_com2").hide();
       $("#mac_com3").hide();
       $("#mac_catalogo").hide();
+      $("#mac_catalogo2").hide();
+      $("#mac_catalogo3").hide();
       $("#web_pay").hide();
       $("#carrito").hide();
 
     });
   </script>
 </head>
-
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light nav-border">
     <div class="container-fluid">
@@ -65,45 +68,42 @@
   <div class="container" id="maceteros">
     <div class="row">
       <div class="col-md-4">
-        <img id="mac_img1" src="IMAGENES TIENDA/semilla1.png" alt="" height="190" width="290" class="img-fluid">
+        <img id="mac_img1" src="IMAGENES TIENDA/fertilizante1.png" alt="" height="190" width="290" class="img-fluid">
         <div id="mac_des1">
-          <h4>SEMILLA NEGRA</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse nisi eaque, provident unde ex eum voluptatem
-            a ipsum architecto tempore saepe perferendis consequuntur nulla. Facere voluptas minima error illum dolorem.
-          </p>
+          <h4>UREA</h4>
+          <p>El Fertilizante Urea es útil para fomentar el crecimiento de todo tipo de plantas de jardín.</p>
           <button id="mac_com1" class="btn btn-light btn-primary">COMPRAR</button>
         </div>
       </div>
       <div class="col-md-4">
-        <img id="mac_img2" src="IMAGENES TIENDA/semilla2.png" alt="" height="190" width="290" class="img-fluid">
+        <img id="mac_img2" src="IMAGENES TIENDA/fertilizante2.png" alt="" height="190" width="290" class="img-fluid">
         <div id="mac_des2">
-          <h4>SEMILLA BLANCA</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse nisi eaque, provident unde ex eum voluptatem
-            a ipsum architecto tempore saepe perferendis consequuntur nulla. Facere voluptas minima error illum dolorem.
-          </p>
+          <h4>POTASIO</h4>
+          <p>Este fertilizante es perfecto para obtener plantas bellas y sanas.</p>
           <button class="btn btn-light btn-primary" id="mac_com2">COMPRAR</button>
         </div>
       </div>
       <div class="col-md-4">
-        <img id="mac_img3" src="IMAGENES TIENDA/semilla3.png" alt="" height="190" width="290" class="img-fluid">
+        <img id="mac_img3" src="IMAGENES TIENDA/fertilizante3.png" alt="" height="190" width="290" class="img-fluid">
         <div id="mac_des3">
-          <h4>SEMILLA CAFE</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse nisi eaque, provident unde ex eum voluptatem
-            a ipsum architecto tempore saepe perferendis consequuntur nulla. Facere voluptas minima error illum dolorem.
-          </p>
+          <h4>FERTILIZANTE GERMINAL</h4>
+          <p>Fertilizante granulado, balanceado y completo, contiene los elementos necesarios para un buen
+            desarrollo vegetativo.</p>
           <button class="btn btn-light btn-primary" id="mac_com3">COMPRAR</button>
         </div>
       </div>
     </div>
   </div>
-  <div class="container">
     <div class="col-md-12">
       <br>
-      <div id="mac_des">
-        <h2>Soporte, generalmente de hierro, madera o piedra en que se colocan las macetas de plantas.
-          Especie de red que se utiliza para colgar macetas del techo, como adorno.
-          Maceta, generalmente cuadrangular y muy grande, donde se cultivan varias plantas ornamentales:
-          en la terraza tengo un macetero lleno de plantas aromáticas.</h2>
+      <div id="mac_descrip1" class="container">
+        <h3>Entre las características del fertilizante Urea se puede mencionar que viene en forma granulada.
+          Este abono se aplica sobre la superficie del cultivo en las dosis recomendadas de acuerdo a las necesidades de
+          cada especie vegetal en particular.
+          Para lograr una mejor incorporación al sustrato se debe hacer riego con el fin de que el suelo absorba los
+          nutrientes
+          y estos lleguen hasta el sistema radicular. Uno de los beneficios de este fertilizante es que el nitrógeno
+          que aporta a las plantas ayuda en la asimilación de vitaminas y proteínas.</h3>
         <div class="row">
           <div class="col-md-4">
             <button class="btn btn-light btn-primary" id="mac_catalogo">VOLVER</button>
@@ -115,10 +115,56 @@
             <button class="btn btn-light btn-primary" id="carrito">AGREGAR CARRITO</button>
           </div>
         </div>
-
       </div>
     </div>
   </div>
+  </div>
+      <div id="mac_descrip2" class="container">
+        <h3>Incorpore con ayuda de una palita o al voleo,
+          dependiendo del volumen;Contiene una balanceada fórmula de macronutrientes que se ajusta a las condiciones de
+          menor actividad,
+          una fórmula baja en nitrógeno y alta en potasio permite que las plantas mantengan su actividad metabólica
+          sin tener un crecimiento vegetativo muy acelerado;El azufre en la fórmula permite bajar el pH en la zona de
+          raíces,
+          aumentando la disponibilidad de microelementos que se encuentran generalmente no disponibles en el suelo.</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <button class="btn btn-light btn-primary" id="mac_catalogo2">VOLVER</button>
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-light btn-primary" id="web_pay">PAGO DIRECTO</button>
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-light btn-primary" id="carrito">AGREGAR CARRITO</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+      <div id="mac_descrip3" class="container">
+        <h3>Aplique alrededor de las plantas anuales y árboles frutales, incorpore con una palita o un rastrillo,
+          cuidando de no dañar las raíces superficiales;En prados establecidos,
+          distribuya en forma homogénea después de realizar un corte,
+          si desea utilizarlo como un fertilizante de partida en prados nuevos,
+          incorpórelo al sustrato cuando realice la preparación del terreno y luego realice la siembra de césped.
+          Es importante regar, inmediatamente, una vez que haya aplicado el fertilizante.</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <button class="btn btn-light btn-primary" id="mac_catalogo3">VOLVER</button>
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-light btn-primary" id="web_pay">PAGO DIRECTO</button>
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-light btn-primary" id="carrito">AGREGAR CARRITO</button>
+          </div>
+        </div>
+      </div>
+      <div></div>
+    </div>
+  </div>
+</div>
+</div>
   <div class="footer">
     <a href="#"><img class="inline-img" src="iconos/address-card-solid.svg" alt=""> DEJA TUS COMENTARIOS</a>
   </div>
@@ -126,5 +172,4 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 </body>
-
 </html>
