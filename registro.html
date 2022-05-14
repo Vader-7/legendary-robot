@@ -22,50 +22,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="actions.js"></script>
     <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (function () {
-        'use strict'
-
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        var forms = document.querySelectorAll('.needs-validation')
-
-        // Loop over them and prevent submission
-        Array.prototype.slice.call(forms)
-            .forEach(function (form) {
-            form.addEventListener('submit', function (event) {
-                if (!form.checkValidity()) {
-                event.preventDefault()
-                event.stopPropagation()
-                }
-
-                form.classList.add('was-validated')
-            }, false)
-            })
-        })()
-        const correo = document.getElementById.value("correo")
-        const user = document.getElementById.value("user")
-        const nombre = document.getElementById.value("nombre")
-        const clave = document.getElementById.value("clave")
-        const form = document.getElementById.value("form")
-        const error = document.getElementById.value("warnings")
-
-          form.addEventListener('submit', e=>{
-            e.preventDefault();
-              let warnings = ""
-              let entrar = false
+        function validaRegistro(){
+          const nombre = document.getElementById("nombre")
+          const correo = document.getElementById("correo")
+          const user = document.getElementById("user")
+          const clave = document.getElementById("clave")
+          const form = document.getElementById("form")
               let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/
-              error.innerHTML = ""
               if(!regexEmail.test(correo.value)){
-                warnings += 'Correo no valido.'
-                entrar =  true
+                alert("Correo no valido.");
+                return false
                 
               }if(clave.value.length < 8){
-                warnings += 'Contraseña no valida.'
-                entrar =  true
-              }if(entrar){
-                error.innerHTML = warnings
+                alert("Contraseña no valida.");
+                return false
+              }if(nombre == "" || nombre == null){
+                alert("Error!, Ingresa tu nombre. ")
+                return false
               }
-            });
+          }
     </script>
 </head>
         <body class="logDiv">
@@ -98,10 +73,9 @@
                   </div>
                   <div></div>
                 <div style="text-align: center;">
-                <button type="submit" class="btn btn-light btn-primary btn-lg btn-block">REGISTRAR</button>
+                <button type="submit" class="btn btn-light btn-primary btn-lg btn-block" onclick="validaRegistro()">REGISTRAR</button>
                 </div>
                 <label for="crear" class="label"><img class="inline-img" src="iconos/angle-left-solid.svg" alt=""><a class="VOLVER" href="login.html">VOLVER</a></label>
-                <p class="warnings" id="warnings"></p>
               </form>
             </div>
             </div>
