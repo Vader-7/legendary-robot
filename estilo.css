@@ -50,6 +50,10 @@ img{
   background-attachment: fixed;
   background-position: 0px -1100px;
 }
+.INGRESAR{
+  color: black;
+  text-decoration: none;
+}
 .nav-border{
   border-radius: 15px;
 }
