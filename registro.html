@@ -29,15 +29,20 @@
           const clave = document.getElementById("clave")
           const form = document.getElementById("form")
               let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/
+              if(nombre.value == "" || nombre.value == null){
+                alert("ERROR!\n\nINGRESA TU NOMBRE. ")
+                return false
+              }
               if(!regexEmail.test(correo.value)){
-                alert("Correo no valido.");
+                alert("ERROR! CORREO NO VALIDO, INGRESA UN CORREO VALIDO.");
                 return false
-                
-              }if(clave.value.length < 8){
-                alert("Contraseña no valida.");
+              }
+              if(user.value == "" || user.value == null){
+                alert("ERROR! INGRESA TU USUARIO. ")
                 return false
-              }if(nombre == "" || nombre == null){
-                alert("Error!, Ingresa tu nombre. ")
+              }
+              if(clave.value.length < 8){
+                alert("ERROR! CONTRASEÑA NO VALIDA, INGRESA UNA CONTRASEÑA VALIDA.");
                 return false
               }
           }
