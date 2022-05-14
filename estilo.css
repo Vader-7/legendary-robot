@@ -50,9 +50,11 @@ img{
   background-attachment: fixed;
   background-position: 0px -1100px;
 }
-.INGRESAR{
+.INGRESAR, .VOLVER{
   color: black;
   text-decoration: none;
+  font-weight: 1000;
+  font-size: large;
 }
 .nav-border{
   border-radius: 15px;
