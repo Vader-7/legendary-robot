@@ -100,3 +100,9 @@ input.larger {
     width: 15px;
     height: 15px;
 }
+#maptext{
+  text-align: center;
+}
+#map {
+  height: 100%;
+}
