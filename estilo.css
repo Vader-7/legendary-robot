@@ -19,6 +19,14 @@ a{
 img{
   border-radius: 15px;
 }
+#maptext{
+  text-align: center;
+  font-weight: 1000;
+}
+#map{
+  border-radius: 15px;
+  height: 150%;
+}
 #USER{
   border-radius: 15px;
   background-color: #ffffff;
@@ -105,10 +113,4 @@ img{
 input.larger {
     width: 15px;
     height: 15px;
-}
-#maptext{
-  text-align: center;
-}
-#map {
-  height: 100%;
 }
