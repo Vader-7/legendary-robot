@@ -41,8 +41,15 @@
       $("#mac_catalogo3").hide();
       $("#web_pay").hide();
       $("#carrito").hide();
-
     });
+      function agregarCarrito(){
+        var carrito = document.getElementById("carrito")
+        var contCarrito = 0
+        if(carrito){
+          contCarrito += 1
+          alert(cont)
+        }
+      }
   </script>
 </head>
 <body>
@@ -110,7 +117,7 @@
             <button class="btn btn-light btn-primary" id="web_pay">PAGO DIRECTO</button>
           </div>
           <div class="col-md-4">
-            <button class="btn btn-light btn-primary" id="carrito">AGREGAR CARRITO</button>
+            <button class="btn btn-light btn-primary" id="carrito" onclick="agregarCarrito()">AGREGAR CARRITO</button>
           </div>
         </div>
       </div>
