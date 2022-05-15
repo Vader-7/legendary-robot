@@ -23,26 +23,26 @@
     <script src="actions.js"></script>
     <script>
         function validaRegistro(){
-          const nombre = document.getElementById("nombre")
-          const correo = document.getElementById("correo")
-          const user = document.getElementById("user")
-          const clave = document.getElementById("clave")
-          const form = document.getElementById("form")
-              let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/
-              if(nombre.value == "" || nombre.value == null){
-                alert("ERROR!\n\nINGRESA TU NOMBRE. ")
+          var nombre = document.getElementById("nombre").value
+          var correo = document.getElementById("correo").value
+          var user = document.getElementById("user").value
+          var clave = document.getElementById("clave").value
+
+          let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/
+              if(nombre === "" || nombre === null || nombre.length < 3){
+                alert("\nERROR!\n\nINGRESA TU NOMBRE. ")
                 return false
               }
-              if(!regexEmail.test(correo.value)){
-                alert("ERROR! CORREO NO VALIDO, INGRESA UN CORREO VALIDO.");
+              if(!regexEmail.test(correo) || correo === "" || correo === null){
+                alert("\nERROR!\n\nCORREO NO VALIDO, INGRESA UN CORREO VALIDO.");
                 return false
               }
-              if(user.value == "" || user.value == null){
-                alert("ERROR! INGRESA TU USUARIO. ")
+              if(user === "" || user === null){
+                alert("\nERROR! INGRESA TU USUARIO. ")
                 return false
               }
-              if(clave.value.length < 8){
-                alert("ERROR! CONTRASEÑA NO VALIDA, INGRESA UNA CONTRASEÑA VALIDA.");
+              if(clave.length < 8 || clave === "" || clave === null ){
+                alert("\nERROR! CONTRASEÑA NO VALIDA, INGRESA UNA CONTRASEÑA VALIDA.");
                 return false
               }
           }
