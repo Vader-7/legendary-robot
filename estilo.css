@@ -72,6 +72,10 @@ img{
   background-color: rgb(255, 255, 255);
   color: black;
 }
+#drop{
+  border-radius: 15px !important;
+  border-color: #ffffff !important;
+}
 .footer-laber{
   font-size: small;
   font-weight: 1000;
