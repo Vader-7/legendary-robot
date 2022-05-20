@@ -6,7 +6,9 @@
     text-decoration-color: rgb(0, 80, 114);
     text-decoration-style: none;
 }
-
+#body-login{
+  overflow-y:hidden;
+}
 body{
     background: rgb(223,212,215);
     background: linear-gradient(52deg, rgba(223,212,215,1) 0%, rgba(210,210,210,1) 93%);
