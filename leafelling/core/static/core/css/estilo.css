@@ -1,0 +1,122 @@
+*{
+    font-family: 'Fira Code', monospace;
+    padding: 7px;
+    font-weight: bolder;
+    text-decoration-line: none;
+    text-decoration-color: rgb(0, 80, 114);
+    text-decoration-style: none;
+}
+#body-login{
+  overflow-y:hidden;
+}
+body{
+    background: rgb(223,212,215);
+    background: linear-gradient(52deg, rgba(223,212,215,1) 0%, rgba(210,210,210,1) 93%);
+}
+a{
+  text-decoration-line: none;
+  text-decoration-color: rgb(0, 80, 114);
+  text-decoration-style: none;
+}
+img{
+  border-radius: 15px;
+}
+#maptext{
+  text-align: center;
+  font-weight: 1000;
+}
+#map{
+  border-radius: 15px;
+  height: 150%;
+}
+#USER{
+  border-radius: 15px;
+  background-color: #ffffff;
+  border-color: #DFD4D7;
+  border-style: hidden;
+  box-shadow: none;
+}
+.dropdown-menu{
+  border-radius: 15px;
+  background-color: #ffffff;
+  border-color: #DFD4D7;
+  border-style: hidden;
+  box-shadow: none;
+}
+
+#mac_des, #mac_des1, #mac_des2, #mac_des3, #descripcion1, #descripcion2, #descripcion3, #mac_descrip1, #mac_descrip2, #mac_descrip3{
+  background-color: #ffffff;
+  color: rgb(34, 34, 34);
+  border-radius: 15px;
+}
+#Title{
+  text-transform: uppercase;
+  font-weight: 1000;
+  text-align: center;
+}
+.logDiv{
+  background-image: url(fotos/sarah.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: 0px -1100px;
+}
+.INGRESAR, .VOLVER{
+  color: black;
+  text-decoration: none;
+  font-weight: 1000;
+  font-size: large;
+}
+.nav-border{
+  border-radius: 15px;
+}
+.footer{
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+#drop{
+  border-radius: 15px !important;
+  border-color: #ffffff !important;
+}
+.footer-laber{
+  font-size: small;
+  font-weight: 1000;
+  text-align: center;
+}
+.control{
+    border-radius: 15px;
+    width: 37%;
+    border-style: none;
+  }
+.label{
+    font-size: large;
+    font-weight: 1000;
+    text-align: center;
+  }
+.login{
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgb(198, 198, 198);
+}
+.inline-img {
+  width: 30px;
+  height: 30px;
+  position: left;
+  border-radius: 0%;
+}
+.inline-imgx{
+  width: 50px;
+  height: 40px;
+  position: left;
+  border-radius: 0%;
+}
+.inline-img-footer{
+  width: 40px;
+  height: 30px;
+  position: left; 
+  border-radius: 0%;
+}
+input.larger {
+    width: 15px;
+    height: 15px;
+}
